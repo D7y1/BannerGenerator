@@ -485,3 +485,11 @@ input::-webkit-inner-spin-button {
         left: 15px;
     }
 }
+
+.note-2 {
+    position: absolute;
+    bottom: -5%;
+    text-align: center;
+    width: 100%;
+    color: #ffffff8f;
+}
