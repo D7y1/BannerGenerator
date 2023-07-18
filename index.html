@@ -18,6 +18,13 @@
     <script type="text/javascript" src="./js/script.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./image/favicon.png">
+
+    <!-- Discord Embed -->
+    <meta content="Discord Banner Generator" property="og:title" />
+    <meta content="an open-source project that allows you to generate a personalized animated GIF banner" property="og:description" />
+    <meta content="https://banner.d7y.dev/" property="og:url" />
+    <meta content="https://cdn.discordapp.com/attachments/729486981268111441/1130895575055876187/Banners_Generator.gif" property="og:image" />
+    <meta content="#000" data-react-helmet="true" name="theme-color" />
 </head>
 
 <body>
@@ -66,21 +73,28 @@
                     <label for="input" class="label">Delay</label>
                     <div class="underline"></div>
                 </div>
-                <div class="note">in milliseconds <content style="cursor: pointer;" onclick="document.querySelector('.delay input').value = 100">( Default 100 ms)</content></div>
+                <div class="note">in milliseconds <content style="cursor: pointer;"
+                        onclick="document.querySelector('.delay input').value = 100">( Default 100 ms)</content>
+                </div>
             </div>
             <div class="preview-container">
                 <div class="prev-text">Preview</div>
                 <div class="back">
-                    <img src="https://cdn.discordapp.com/attachments/729486981268111441/1130868679500894208/download_3.gif">
+                    <img
+                        src="https://cdn.discordapp.com/attachments/729486981268111441/1130868679500894208/download_3.gif">
                 </div>
                 <div class="preview">
                     <img class="prev banner" src="">
                     <div class="actions">
                         <button class="download" onclick="DownloadBanner()">
-                            <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                            <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                                </path>
+                            </svg>
                             <span class="icon2"></span>
                             <span class="tooltip">Download</span>
-                         </button>
+                        </button>
                     </div>
                 </div>
             </div>
