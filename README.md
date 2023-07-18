@@ -27,7 +27,7 @@ Contributions are welcome! If you want to contribute to this project, please fol
 
 ## Apology
 
-We apologize for the messy code in this project. As an open-source project, we encourage contributions from the community to help improve the code quality and maintainability.
+I apologize for the messy code in this project. As an open-source project, we encourage contributions from the community to help improve the code quality and maintainability.
 
 ## Acknowledgements
 
