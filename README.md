@@ -34,4 +34,3 @@ We apologize for the messy code in this project. As an open-source project, we e
 - Thanks to [jsgif](https://github.com/antimatter15/jsgif/tree/master) for providing the tool to convert canvas to GIF format.
 - Thanks to [Osorina Irina](https://codepen.io/osorina) from CodePen for the code of the background.
 - Thanks to [uiverse.io](https://uiverse.io) for the inspiration and code for some elements.
-- Shoutout to [Contributor Name](GitHub Profile URL) for their contributions to the project.
